@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname,'public')));
 
 //set bootstrap folder
 app.use(
-  '/bootstrap', express.static(__dirname+'node_modules/bootstrap/dist/css/')
+  '/bootstrap', express.static(__dirname+'/node_modules/bootstrap/dist/css/')
 );
 
 // set template
